@@ -6,8 +6,8 @@ import { NavigationMenu } from './ui/navigation-menu'
 
 export default function Navbar() {
   return (
-    <nav className='sticky top-0 flex h-[80px] items-center justify-between border-b border-gray-100 px-4 md:px-6 lg:px-8'>
-      <div className='mx-auto flex w-full max-w-screen-xl items-center justify-between'>
+    <nav className='sticky top-0 flex h-[80px] items-center justify-between border-b border-gray-100'>
+      <div className='mx-auto flex w-full max-w-screen-xl items-center justify-between px-4 md:px-6 lg:px-8'>
         <Link href='/' aria-label='Home page'>
           <Image
             src='/tonevia-logo.png'
