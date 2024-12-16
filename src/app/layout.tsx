@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang='en' className={`${geistSans.variable}`}>
       <body className='font-[family-name:var(--font-geist-sans)] antialiased'>
         <Navbar />
-        <div className='mx-auto flex min-h-screen w-full max-w-screen-xl flex-col gap-4 p-4 md:gap-6 md:p-6 lg:gap-8 lg:p-8'>
+        <div className='mx-auto min-h-screen w-full max-w-screen-xl p-4 md:p-6 lg:p-8'>
           {children}
         </div>
       </body>

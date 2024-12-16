@@ -3,6 +3,7 @@ import Container from '@/components/Container'
 import Heading from '@/components/Heading'
 import Paragraph from '@/components/Paragraph'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -17,7 +18,9 @@ export default function Hero() {
           musicians of all levels.
         </Paragraph>
         <Button className='h-11 w-fit bg-primary px-4 text-sm text-white lg:text-base'>
-          Explore Our Products
+          <Link href='/products' aria-label='Products page'>
+            Explore Our Products
+          </Link>
         </Button>
       </div>
       <div className='grid grid-cols-3 place-items-center gap-4'>

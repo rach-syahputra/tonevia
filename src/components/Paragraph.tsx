@@ -22,7 +22,7 @@ export default function Paragraph({
           'text-primary': color === 'primary',
           'text-black': color === 'black',
           'text-gray-500': color === 'dark-gray',
-          'text-gray-300': color === 'gray',
+          'text-gray-400': color === 'gray',
           'text-white': color === 'white'
         },
         className
