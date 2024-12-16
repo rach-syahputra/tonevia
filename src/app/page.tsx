@@ -1,3 +1,9 @@
+import Hero from './_components/Hero'
+
 export default function Home() {
-  return <div>Page</div>
+  return (
+    <main className='w-full'>
+      <Hero />
+    </main>
+  )
 }
