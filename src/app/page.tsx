@@ -1,6 +1,7 @@
 import Hero from './_components/Hero'
 import Overview from './_components/Overview'
 import Products from './_components/Products'
+import Testimonials from './_components/Testimonials'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Overview />
       <Products />
+      <Testimonials />
     </main>
   )
 }
