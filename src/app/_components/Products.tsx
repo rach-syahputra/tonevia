@@ -1,10 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Container from '@/components/Container'
 import Heading from '@/components/Heading'
 import Paragraph from '@/components/Paragraph'
 import { products } from '@/lib/data/products'
 import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 
 export default function Products() {
   return (
