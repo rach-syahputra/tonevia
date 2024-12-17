@@ -14,7 +14,7 @@ export const navLinks: NavLinksType[] = [
   },
   {
     label: 'About Us',
-    href: '/about'
+    href: '/about-us'
   },
   {
     label: 'Teams',
