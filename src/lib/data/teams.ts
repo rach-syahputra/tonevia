@@ -18,7 +18,7 @@ export const teams: TeamType[] = [
     image: '/teams/team-2.jpg',
     job: 'Head of Product Design',
     description:
-      'A visionary leader and lifelong music enthusiast, Andi founded Tonevia to inspire musicians worldwide with instruments that blend art and precision.'
+      'With a passion for design and craftsmanship, Kevin ensures every Tonevia instrument is both visually stunning and functionally perfect.'
   },
   {
     name: 'Rizky Putra',
