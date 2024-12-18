@@ -1,7 +1,15 @@
+import { Metadata } from 'next'
 import Container from '@/components/Container'
 import History from './_components/History'
 import Teams from './_components/Teams'
 import Culture from './_components/Culture'
+import { appName } from '@/lib/data/app'
+
+export const metadata: Metadata = {
+  title: `${appName} - About Us`,
+  description:
+    'Discover high-quality musical instruments at Tonevia. Explore our range of expertly crafted guitars, pianos, drums, and more, designed to inspire musicians of all levels. Experience superior sound, precision, and artistry.'
+}
 
 export default function AboutUsPage() {
   return (
