@@ -17,7 +17,10 @@ export default function Hero() {
           sound. Tonevia delivers precision, craftsmanship, and artistry for
           musicians of all levels.
         </Paragraph>
-        <Button className='h-11 w-fit bg-primary px-4 text-sm text-white lg:text-base'>
+        <Button
+          asChild
+          className='h-11 w-fit bg-gray-600 px-4 text-sm text-white lg:text-base'
+        >
           <Link href='/products' aria-label='Products page'>
             Explore Our Products
           </Link>
@@ -30,6 +33,7 @@ export default function Hero() {
             alt='People playing an instrument'
             loading='eager'
             fill
+            sizes='100'
             style={{ objectFit: 'cover' }}
             className='h-full w-full rounded-lg'
           />
@@ -40,6 +44,7 @@ export default function Hero() {
             alt='People playing an instrument'
             loading='eager'
             fill
+            sizes='100'
             style={{ objectFit: 'cover' }}
             className='h-full w-full rounded-lg'
           />
@@ -50,6 +55,7 @@ export default function Hero() {
             alt='People playing an instrument'
             loading='eager'
             fill
+            sizes='100'
             style={{ objectFit: 'cover' }}
             className='h-full w-full rounded-lg'
           />

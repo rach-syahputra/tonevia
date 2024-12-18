@@ -28,13 +28,16 @@ export default function MobileNavbarMenu() {
         className={`${openMenu ? 'translate-x-0' : '-translate-x-full'} fixed left-0 top-0 h-screen w-screen bg-white transition-all duration-300 ease-in-out md:hidden`}
       >
         <div className='border-light flex h-[80px] items-center justify-between border-b px-8'>
-          <Image
-            src='/tonevia-logo.png'
-            alt='Tonevia logo'
-            width={100}
-            height={80}
-            className='h-auto w-[60px]'
-          />
+          <div className='flex items-center justify-center gap-2 font-bold'>
+            <Image
+              src='/logo.png'
+              alt='Tonevia logo'
+              width={100}
+              height={100}
+              className='h-auto w-10'
+            />
+            TONEVIA
+          </div>
           <FontAwesomeIcon
             icon={faXmark}
             className='h-8 w-8'

@@ -31,7 +31,7 @@ export default function Testimonials() {
                 <span className='text-xs font-bold md:text-sm lg:text-base'>
                   {customer.name}
                 </span>
-                <p className='text-[10px] text-gray-400 md:text-xs lg:text-sm'>
+                <p className='text-[10px] text-gray-700 md:text-xs lg:text-sm'>
                   {customer.job}
                 </p>
               </div>
@@ -58,7 +58,7 @@ export default function Testimonials() {
                 className='h-4 w-4 text-yellow-500 md:h-5 md:w-5'
               />
             </div>
-            <Paragraph color='dark-gray'>{customer.testimonial}</Paragraph>
+            <Paragraph color='black'>{customer.testimonial}</Paragraph>
           </div>
         ))}
       </div>

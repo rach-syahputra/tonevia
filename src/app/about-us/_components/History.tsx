@@ -5,7 +5,7 @@ export default function History() {
   return (
     <div className='flex flex-col items-center justify-center gap-4'>
       <Heading level={1}>Our Story: Crafting Sound, Inspiring Passion</Heading>
-      <Paragraph color='gray'>
+      <Paragraph color='light-gray'>
         Tonevia was born in 2010 from a shared passion for music and
         craftsmanship. In a small workshop in the heart of Jakarta, our
         founders—Andi Pratama and Kevin Santoso—set out to create musical
@@ -20,7 +20,7 @@ export default function History() {
         the company expanded its offerings, introducing pianos, drums, and
         violins that adhered to the same standards of excellence.
       </Paragraph>
-      <Paragraph color='gray'>
+      <Paragraph color='light-gray'>
         By 2015, Tonevia had grown from a small workshop into a trusted name in
         the Indonesian music scene. We opened our first production facility to
         meet increasing demand while staying true to our core values:
@@ -33,7 +33,7 @@ export default function History() {
         boundaries, and every artist deserves access to instruments that bring
         their creativity to life.
       </Paragraph>
-      <Paragraph color='gray'>
+      <Paragraph color='light-gray'>
         At Tonevia, we also take pride in our company culture. As a team, we are
         bound by a shared purpose: to serve the musical community and celebrate
         the joy that music brings. Whether it’s through supporting local music

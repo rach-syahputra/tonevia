@@ -11,7 +11,7 @@ export default function Products() {
     <Container className='flex flex-col items-center justify-center gap-8 rounded-lg bg-gray-900 p-4 text-white md:p-6 lg:p-8'>
       <div className='flex flex-col items-center justify-center md:gap-2'>
         <Heading level={1}>Our Products</Heading>
-        <Paragraph color='dark-gray'>Crafted for Every Musician</Paragraph>
+        <Paragraph color='gray'>Crafted for Every Musician</Paragraph>
       </div>
       <div className='grid grid-cols-2 items-start gap-4 gap-y-8 md:grid-cols-4 xl:gap-6'>
         {products.map((product, index) => (
@@ -38,11 +38,11 @@ export default function Products() {
         ))}
       </div>
       <Button
-        className='w-full bg-primary text-sm text-white md:w-fit md:text-base lg:text-lg'
+        className='w-full bg-gray-600 text-sm text-white md:w-fit md:text-base lg:text-lg'
         asChild
       >
         <Link href='/products' aria-label='Products page'>
-          Learn more
+          Explore our products
         </Link>
       </Button>
     </Container>

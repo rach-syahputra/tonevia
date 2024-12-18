@@ -16,7 +16,7 @@ export default function TeamItem({ name, image, description, job }: TeamProps) {
         />
         <div className='flex flex-col'>
           <Heading level={2}>{name}</Heading>
-          <p className='text-xs text-gray-500 md:text-sm lg:text-base'>{job}</p>
+          <p className='text-xs text-gray-400 md:text-sm lg:text-base'>{job}</p>
         </div>
       </div>
       <Paragraph color='gray'>{description}</Paragraph>

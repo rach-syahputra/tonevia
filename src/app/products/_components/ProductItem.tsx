@@ -4,7 +4,6 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Heading from '@/components/Heading'
 import Paragraph from '@/components/Paragraph'
-import { IContentfulAsset } from '@/contentful/types'
 import { CustomerType } from '@/lib/data/customers'
 
 type ProductItemProps = {
@@ -25,11 +24,12 @@ export default function ProductItem({
       <div className='flex flex-col gap-2'>
         <figure className='relative flex w-full flex-col gap-2'>
           <Image
-            src={`https:${(image as IContentfulAsset)?.fields.file.url}`}
+            src={image}
             alt={`${name} image`}
-            width={564}
-            height={353}
+            width={600}
+            height={450}
             loading='eager'
+            priority
             className='h-auto w-full rounded-lg'
           />
           <figcaption className='absolute bottom-0 left-0 rounded-tr-lg bg-gray-800 bg-opacity-95 px-4 py-2'>

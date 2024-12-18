@@ -7,7 +7,7 @@ export default function Culture() {
     <Container className='flex flex-col items-center justify-center gap-8 rounded-lg bg-gray-900 text-white'>
       <div className='flex flex-col items-center justify-center gap-4'>
         <Heading level={1}>Our Culture, Our Harmnony</Heading>
-        <Paragraph color='gray'>
+        <Paragraph color='light-gray'>
           Tonevia’s culture is rooted in three core values: passion, precision,
           and collaboration. We are musicians, designers, engineers, and
           storytellers united by a single purpose: to create instruments that
@@ -19,7 +19,7 @@ export default function Culture() {
           individual contributing their expertise to create something
           remarkable.
         </Paragraph>
-        <Paragraph color='gray'>
+        <Paragraph color='light-gray'>
           Our workspace celebrates innovation and teamwork. We encourage growth,
           continuous learning, and an appreciation for artistry, ensuring every
           Tonevia product reflects not just technical excellence but also a deep

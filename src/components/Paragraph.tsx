@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils'
 
 type ParagraphProps = {
   size?: 'sm' | 'base'
-  color?: 'gray' | 'dark-gray' | 'black' | 'primary' | 'white'
+  color?: 'gray' | 'dark-gray' | 'light-gray' | 'black' | 'primary' | 'white'
   children: React.ReactNode
   className?: string
 }
@@ -21,8 +21,9 @@ export default function Paragraph({
           'text-sm md:text-base lg:text-lg': size === 'base',
           'text-primary': color === 'primary',
           'text-black': color === 'black',
-          'text-gray-500': color === 'dark-gray',
+          'text-gray-600': color === 'dark-gray',
           'text-gray-400': color === 'gray',
+          'text-gray-300': color === 'light-gray',
           'text-white': color === 'white'
         },
         className
